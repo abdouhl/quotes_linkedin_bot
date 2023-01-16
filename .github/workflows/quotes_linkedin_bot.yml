@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install python-dotenv requests supabase urllib
+          pip install python-dotenv requests supabase
       - name: execute py script 
         run: |
           python create_post.py
